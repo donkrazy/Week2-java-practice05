@@ -10,7 +10,10 @@ public class Prob1 {
 		
 		String s = scanner.nextLine();
         /*  구현합니다. */
-
+        String output = s;
+        for (int i = 0; i <= s.length(); i++ ) {
+            s = s.toUpperCase();
+            System.out.println(s.substring(0, i));
         }
 	}
 
